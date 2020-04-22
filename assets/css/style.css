@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
 
 }
 a{
@@ -14,7 +15,7 @@ p,a, h1, h2,h3,h4,h5,h6{
   padding: 0;
 }
 body{
-  background-color:  rgb(128, 128, 128);
+  background-color:  #fff;
 }
 /*header*/
 .header{
@@ -40,12 +41,20 @@ body{
   display: flex;
   flex-direction: column;
   align-content: center;
-  align-items: flex-end;
+  align-items: center;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin: 10px;
+  font-weight: bold;
+  color: #fff;
+
 }
-.sider{
-  margin: 10px 5px;
-  padding: 15px 10px;
-  text-transform: uppercase;
+.nav-link:hover{
+  color:rgb(218, 87, 36);
+
+}
+span{
+  color: rgb(57, 115, 224);
 }
 /*siderbar*/
 .siderbar{
@@ -62,10 +71,95 @@ body{
 }
 
 .fas{
+
+}
+.fa-2x{
+  font-size: 20px;
   padding: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 5px;
   color:#fff;
+}
+
+/*session*/
+.session{
+  width: 100%;
+  color: rgb(128, 128, 128);
+
+}
+.container-fluid{
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color:  background-color: rgb(57, 115, 224);
+}
+
+/*session2*/
+.session2{
+  width: 100%;
+  background-color: rgb(128, 128, 128);
+}
+
+/*Footer*/
+.footer{
+  width: 100%;
+  background-color: rgb(57, 115, 224);
+  display: flex;
+  justify-content: space-between;
+}
+.link{
+  padding: 12px;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 19px;
+}
+.link:hover{
+  color: rgb(218, 87, 36);
+}
+.descriptions{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(57, 115, 224);
+}
+.links-socials{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(57, 115, 224);
+}
+
+/* .link-instagram::before{
+   font-weight: 400; content: "\f16d";
+}
+.link-twitter::before{
+   font-weight: 400; content: "\f099";
+}
+.link-facebook::before{
+   font-weight: 400; content: "\f39e";
+} */
+.descriptions{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.footer-paragraph{
+  background-color: rgb(57, 115, 224);
+  text-align: center;
+  font-weight: bolder;
+  padding: 10px;
+  color: #fff;
+}
+.footer-paragraph:hover{
+  color: rgb(218, 87, 36);
 }
